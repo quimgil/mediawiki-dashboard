@@ -260,6 +260,13 @@
         "name" : "merged",
         "desc" : ""
     },
+    "scr_mergers" : {
+        "divid" : "scr_mergers",
+        "column" : "mergers",
+        "name" : "mergers",
+        "action" : "merged",
+        "desc" : ""
+    },
     "scr_opened" : {
         "divid" : "scr_opened",
         "column" : "opened",
@@ -349,6 +356,20 @@
         "column" : "people",
         "name" : "People",
         "desc" : "Number of active people"
-    }
+    },
+    "scr_closers" : {
+        "divid" : "scr_closers",
+        "column" : "closers",
+        "name" : "Closers",
+        "desc" : "Reviews closers",
+        "action" : "closed"
+    },
+    "scr_openers" : {
+        "divid" : "scr_openers",
+        "column" : "openers",
+        "name" : "Openers",
+        "desc" : "Reviews openers",
+        "action" : "opened"
+    }    
 }
 }

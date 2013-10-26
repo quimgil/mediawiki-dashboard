@@ -2,13 +2,13 @@ describe("VizGrimoireJS data", function() {
     beforeEach(function() {
         waitsFor(function() {
             return Loader.check_data_loaded();
-        }, "It took too long to load data", 100);
+        }, "It took too long to load data", 1000);
     });
     describe("Basic Data", function() {
         it("data files should be loaded", function() {
             waitsFor(function() {
                 return Loader.check_data_loaded();
-            }, "It took too long to load data", 100);
+            }, "It took too long to load data", 1000);
             runs(function() {
                 expect(Loader.check_data_loaded()).toBeTruthy();
             });

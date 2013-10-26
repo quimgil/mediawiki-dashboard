@@ -1,0 +1,18 @@
+{
+"core.git":{
+    "scm":"core.git",
+    "its":"https:__bugzilla.wikimedia.org_buglist.cgi?product=MediaWiki",
+    "scr":"gerrit.wikimedia.org_mediawiki_core"}, 
+"extensions":{
+    "scm":"extensions",
+    "its":"https:__bugzilla.wikimedia.org_buglist.cgi?product=MediaWiki%20Extensions"
+    },
+"Parsoid":{
+    "scm":"Parsoid",
+    "its":"https:__bugzilla.wikimedia.org_buglist.cgi?product=Parsoid",
+    "scr":"gerrit.wikimedia.org_mediawiki_extensions_Parsoid"},
+"VisualEditor":{
+    "scm":"VisualEditor",
+    "its":"https:__bugzilla.wikimedia.org_buglist.cgi?product=VisualEditor",
+    "scr":"gerrit.wikimedia.org_mediawiki_extensions_VisualEditor"}    
+}
